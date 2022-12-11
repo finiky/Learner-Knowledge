@@ -1,0 +1,10 @@
+.logInForm {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.inputs {
+  margin-bottom: 0;
+}

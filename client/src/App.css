@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./components/Q.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-container {
+  display: grid;
+  max-width: 25rem;
+  width: 100%;
+  margin: 0 auto;
+  place-items: center;
+}
+
+.title {
+  font-size: larger;
+  font-weight: 600;
+  margin: 2rem 0 1rem 0;
+}
+
+.list-item, .list-item-input {
+  width: 85%;
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  box-shadow: 0.1rem 0.5rem 0.5rem grey;
+  border: none;
+  background-color: white;
+}
+.list-item:hover {
+  background-color: rgb(30, 179, 80);
+  transform: translateX(1rem);
+  transition: transform ease 0.3s;
+}
+
+.list-item1 {
+  width: 85%;
+  padding: 1rem;
+  margin: 1rem;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  box-shadow: 0.1rem 0.5rem 0.5rem grey;
+  border: none;
+  background-color: rgb(213, 212, 212);
+}
+.list-item2 {
+  width: 85%;
+  padding: 1rem;
+  margin: 1rem;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  box-shadow: 0.1rem 0.5rem 0.5rem grey;
+  border: none;
+  background-color: rgb(213, 212, 212);
+}
+.question {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 2rem;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 0.3rem;
+}
+
+.navbtn {
+  width: auto;
+  border-radius: 0.5rem;
+  background-color: rgb(83, 79, 79);
+  color: white;
+}
+
+.header {
+  background-color: black;
+  width: 100%;
+  color: white;
+  font-size: small;
+  padding-left: 2rem;
+  padding: 0.5rem;
+  background-image: linear-gradient(to right, black, white);
+}
+.header-btn {
+  color: black;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+.dashboard {
+  display: inline-flex;
+  justify-content: flex-end;
+  background-color: rgb(30, 179, 80);
+  color: rgb(241, 230, 230);
+}

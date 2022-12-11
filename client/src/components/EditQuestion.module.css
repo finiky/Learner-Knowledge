@@ -1,0 +1,12 @@
+.editbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.checkbox {
+    width: 1.2rem;
+    height: 1.2rem;
+}
